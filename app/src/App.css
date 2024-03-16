@@ -1,0 +1,32 @@
+/* src/App.css */
+
+
+
+button {
+  margin-top: 20px;
+}
+
+/* Global styles */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Consider a more stylish font like 'Montserrat' */
+  background-color: #f0f0f0; /* Or add your background image with plant patterns */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url('/path-to-your-background-image.jpg');  */
+  background-size: cover;
+}
+
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for content readability */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Other elements styles... */
